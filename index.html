@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #111;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .lang-switch {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: rgba(255,255,255,0.8);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-family: Arial, sans-serif;
+    }
+    .lang-switch a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- PDF Viewer -->
+  <iframe src="portfolio.pdf"></iframe>
+
+  <!-- Language Switch -->
+  <div class="lang-switch">
+    <a href="index.html">English</a> | 
+    <a href="indexfr.html">Français</a>
+  </div>
+</body>
+</html>
